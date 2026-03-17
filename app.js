@@ -163,15 +163,33 @@
 
 // ..................................get data from Api Data (MVC).....................................
 
+// const express = require('express');
+// const controller = require('./controller/apiController');
+// const app = express()
+// const port = 3000;
+
+// app.set('view engine', 'ejs')
+
+// app.get('/',controller)
+
+// app.listen(port, () => {
+//     console.log(`server is running on port ${port}`);
+// })
+
+// ....................................student management.....................................................
+
 const express = require('express');
-const controller = require('./controller/apiController');
+const consroler = require('./controller/miniController');
+const handleRoute = require('./routes/routes');
 const app = express()
 const port = 3000;
 
 app.set('view engine', 'ejs')
 
-app.get('/',controller)
+app.get('/',consroler)
 
-app.listen(port, () => {
-    console.log(`server is running on port ${port}`);
+app.get('/details/:name',handleRoute)
+
+app.listen(port,()=>{
+    console.log(`server is running on port ${port}`);    
 })

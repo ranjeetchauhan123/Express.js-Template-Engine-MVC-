@@ -1,35 +1,35 @@
 [
   {
     "id": "1",
-    "name": "Ranjeet",
+    "name": "ranjeet",
     "age": 22,
     "number": "9876543210",
     "email": "ranjeet@gmail.com"
   },
   {
     "id": "2",
-    "name": "Annu",
+    "name": "annu",
     "age": 21,
     "number": "9876543211",
     "email": "annu@gmail.com"
   },
   {
     "id": "3",
-    "name": "Mohit",
+    "name": "mohit",
     "age": 23,
     "number": "9876543212",
     "email": "mohit@gmail.com"
   },
   {
     "id": "4",
-    "name": "Sonu",
+    "name": "sonu",
     "age": 22,
     "number": "9876543213",
     "email": "sonu@gmail.com"
   },
   {
     "id": "5",
-    "name": "Rahul",
+    "name": "sahul",
     "age": 24,
     "number": "9876543214",
     "email": "rahul@gmail.com"
